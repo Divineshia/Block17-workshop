@@ -56,5 +56,5 @@ const coffeeMenu = [
 ]
 
 module.exports = coffeeMenu;
-//module.exports = {name, price,seasonal };
+//module.exports = {name, price,seasonal };(tried)
 console.log('File 1 is running');

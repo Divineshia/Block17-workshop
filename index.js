@@ -1,7 +1,6 @@
 // importring data from coffee-data file
 const coffeeMenu = require("./coffee_data.js");
-
-console.log('File 2 is running'); // checking the file
+console.table(coffeeMenu); // checking the file
 
 //getting an array of prices alone
 let coffeeprice= coffeeMenu.map(priceMenu => priceMenu.price)//- to check the prices alone
